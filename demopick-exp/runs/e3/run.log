@@ -1,0 +1,55 @@
+{"method": "all", "keep": 1.0, "seed": 0, "n_demos": 300, "n_samples": 31127, "skill_mix": {"better": 100, "worse": 100, "okay": 100}, "epochs": 100, "chunk": 1
+DONE freeze all s0 10:23:50
+{"method": "all", "keep": 1.0, "seed": 0, "n_demos": 300, "n_samples": 31127, "skill_mix": {"better": 100, "worse": 100, "okay": 100}, "epochs": 100, "chunk": 1
+DONE clean all s0 10:23:55
+{"method": "heuristic", "keep": 0.5, "seed": 0, "n_demos": 150, "n_samples": 11634, "skill_mix": {"better": 90, "okay": 48, "worse": 12}, "epochs": 100, "chunk"
+DONE freeze heuristic s0 10:25:01
+{"method": "all", "keep": 1.0, "seed": 0, "n_demos": 300, "n_samples": 31127, "skill_mix": {"better": 100, "worse": 100, "okay": 100}, "epochs": 100, "chunk": 1
+DONE lag all s0 10:25:40
+{"method": "heuristic", "keep": 0.5, "seed": 0, "n_demos": 150, "n_samples": 11371, "skill_mix": {"better": 94, "okay": 51, "worse": 5}, "epochs": 100, "chunk":
+DONE lag heuristic s0 10:26:17
+{"method": "all", "keep": 1.0, "seed": 0, "n_demos": 300, "n_samples": 34395, "skill_mix": {"better": 100, "worse": 100, "okay": 100}, "epochs": 100, "chunk": 1
+DONE pause all s0 10:27:30
+{"method": "heuristic", "keep": 0.5, "seed": 0, "n_demos": 150, "n_samples": 12375, "skill_mix": {"better": 82, "okay": 48, "worse": 20}, "epochs": 100, "chunk"
+DONE pause heuristic s0 10:27:52
+{"method": "heuristic", "keep": 0.5, "seed": 0, "n_demos": 150, "n_samples": 10951, "skill_mix": {"better": 95, "okay": 49, "worse": 6}, "epochs": 100, "chunk":
+DONE truncate heuristic s0 10:29:07
+{"method": "all", "keep": 1.0, "seed": 0, "n_demos": 300, "n_samples": 29840, "skill_mix": {"better": 100, "worse": 100, "okay": 100}, "epochs": 100, "chunk": 1
+DONE truncate all s0 10:29:13
+{"method": "all", "keep": 1.0, "seed": 1, "n_demos": 300, "n_samples": 31127, "skill_mix": {"better": 100, "worse": 100, "okay": 100}, "epochs": 100, "chunk": 1
+DONE clean all s1 10:30:46
+{"method": "all", "keep": 1.0, "seed": 1, "n_demos": 300, "n_samples": 31127, "skill_mix": {"better": 100, "worse": 100, "okay": 100}, "epochs": 100, "chunk": 1
+DONE freeze all s1 10:31:15
+{"method": "heuristic", "keep": 0.5, "seed": 1, "n_demos": 150, "n_samples": 11634, "skill_mix": {"better": 90, "okay": 48, "worse": 12}, "epochs": 100, "chunk"
+DONE freeze heuristic s1 10:32:09
+{"method": "all", "keep": 1.0, "seed": 1, "n_demos": 300, "n_samples": 31127, "skill_mix": {"better": 100, "worse": 100, "okay": 100}, "epochs": 100, "chunk": 1
+DONE lag all s1 10:33:01
+{"method": "heuristic", "keep": 0.5, "seed": 1, "n_demos": 150, "n_samples": 11371, "skill_mix": {"better": 94, "okay": 51, "worse": 5}, "epochs": 100, "chunk":
+DONE lag heuristic s1 10:33:27
+{"method": "all", "keep": 1.0, "seed": 1, "n_demos": 300, "n_samples": 34395, "skill_mix": {"better": 100, "worse": 100, "okay": 100}, "epochs": 100, "chunk": 1
+DONE pause all s1 10:35:01
+{"method": "heuristic", "keep": 0.5, "seed": 1, "n_demos": 150, "n_samples": 12375, "skill_mix": {"better": 82, "okay": 48, "worse": 20}, "epochs": 100, "chunk"
+DONE pause heuristic s1 10:35:07
+{"method": "heuristic", "keep": 0.5, "seed": 1, "n_demos": 150, "n_samples": 10951, "skill_mix": {"better": 95, "okay": 49, "worse": 6}, "epochs": 100, "chunk":
+DONE truncate heuristic s1 10:36:22
+{"method": "all", "keep": 1.0, "seed": 1, "n_demos": 300, "n_samples": 29840, "skill_mix": {"better": 100, "worse": 100, "okay": 100}, "epochs": 100, "chunk": 1
+DONE truncate all s1 10:37:04
+{"method": "all", "keep": 1.0, "seed": 2, "n_demos": 300, "n_samples": 31127, "skill_mix": {"better": 100, "worse": 100, "okay": 100}, "epochs": 100, "chunk": 1
+DONE clean all s2 10:38:09
+{"method": "all", "keep": 1.0, "seed": 2, "n_demos": 300, "n_samples": 31127, "skill_mix": {"better": 100, "worse": 100, "okay": 100}, "epochs": 100, "chunk": 1
+DONE freeze all s2 10:38:31
+{"method": "heuristic", "keep": 0.5, "seed": 2, "n_demos": 150, "n_samples": 11634, "skill_mix": {"better": 90, "okay": 48, "worse": 12}, "epochs": 100, "chunk"
+DONE freeze heuristic s2 10:39:32
+{"method": "all", "keep": 1.0, "seed": 2, "n_demos": 300, "n_samples": 31127, "skill_mix": {"better": 100, "worse": 100, "okay": 100}, "epochs": 100, "chunk": 1
+DONE lag all s2 10:40:28
+{"method": "heuristic", "keep": 0.5, "seed": 2, "n_demos": 150, "n_samples": 11371, "skill_mix": {"better": 94, "okay": 51, "worse": 5}, "epochs": 100, "chunk":
+DONE lag heuristic s2 10:40:53
+{"method": "heuristic", "keep": 0.5, "seed": 2, "n_demos": 150, "n_samples": 12375, "skill_mix": {"better": 82, "okay": 48, "worse": 20}, "epochs": 100, "chunk"
+DONE pause heuristic s2 10:42:17
+{"method": "all", "keep": 1.0, "seed": 2, "n_demos": 300, "n_samples": 34395, "skill_mix": {"better": 100, "worse": 100, "okay": 100}, "epochs": 100, "chunk": 1
+DONE pause all s2 10:42:21
+{"method": "heuristic", "keep": 0.5, "seed": 2, "n_demos": 150, "n_samples": 10951, "skill_mix": {"better": 95, "okay": 49, "worse": 6}, "epochs": 100, "chunk":
+DONE truncate heuristic s2 10:43:34
+{"method": "all", "keep": 1.0, "seed": 2, "n_demos": 300, "n_samples": 29840, "skill_mix": {"better": 100, "worse": 100, "okay": 100}, "epochs": 100, "chunk": 1
+DONE truncate all s2 10:44:00
+ALL_DONE

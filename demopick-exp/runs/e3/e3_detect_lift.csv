@@ -1,0 +1,5 @@
+task,defect,composite_A_auroc,defects_left_after_keep50,defects_total,len,jerk,hf_ratio,idle_ratio,grip_switch,path_len,t_grasp
+lift,freeze,0.74,12,60,0.553,0.492,0.511,1.0,0.506,0.477,0.533
+lift,lag,0.484,29,60,0.553,0.46,0.487,0.534,0.506,0.548,0.327
+lift,pause,0.861,2,60,0.794,0.403,0.551,1.0,0.506,0.548,0.871
+lift,truncate,0.579,25,60,0.387,0.522,0.592,0.389,0.473,0.293,1.0

@@ -1,0 +1,5 @@
+task,defect,composite_A_auroc,defects_left_after_keep50,defects_total,len,jerk,hf_ratio,idle_ratio,grip_switch,path_len,t_grasp
+square,freeze,0.723,11,60,0.582,0.441,0.488,1.0,0.467,0.375,0.477
+square,lag,0.441,36,60,0.582,0.42,0.48,0.5,0.467,0.533,0.406
+square,pause,0.812,7,60,0.828,0.321,0.549,1.0,0.467,0.533,0.501
+square,truncate,0.415,35,60,0.065,0.47,0.797,0.545,0.002,0.018,0.983

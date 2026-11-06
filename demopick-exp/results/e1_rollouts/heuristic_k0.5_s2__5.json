@@ -1,0 +1,1 @@
+{"run": "heuristic_k0.5_s2", "start": 5, "success": [false, true, false, true, false], "lengths": [300, 48, 300, 61, 300], "sec": 10.8}

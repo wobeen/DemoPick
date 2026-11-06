@@ -1,0 +1,24 @@
+{
+ "keeps": [
+  0.3334
+ ],
+ "epochs": 150,
+ "n_rollouts": 30,
+ "horizon": 500,
+ "act_chunk": 8,
+ "act_exec": 4,
+ "eval_seed": 10000,
+ "methods": [
+  "all",
+  "heuristic",
+  "oracle",
+  "random",
+  "reverse"
+ ],
+ "seeds": [
+  0,
+  1,
+  2
+ ],
+ "hdf5": "/sessions/rcw-01hsksdeybymnqwmc7unzzzu/mnt/MyProjects/square_mh_low_dim_v15.hdf5"
+}

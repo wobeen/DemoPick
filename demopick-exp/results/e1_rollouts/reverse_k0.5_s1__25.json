@@ -1,0 +1,1 @@
+{"run": "reverse_k0.5_s1", "start": 25, "success": [false, false, true, true, false], "lengths": [300, 300, 90, 82, 300], "sec": 11.4}

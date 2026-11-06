@@ -1,0 +1,29 @@
+{
+  "hdf5": "/sessions/rcw-01hsksdeybymnqwmc7unzzzu/mnt/MyProjects/low_dim_v15.hdf5",
+  "n_demos": 300,
+  "idle_threshold_m": 0.0008294283565066761,
+  "thresholds": {
+    "IDLE_QUANTILE": 0.1,
+    "APPROACH_PROMINENCE": 0.02,
+    "WASTED_DIST": 0.05,
+    "LIFT_Z": 0.84,
+    "DROP_DZ": 0.005
+  },
+  "features_A": [
+    "len",
+    "jerk",
+    "hf_ratio",
+    "idle_ratio",
+    "grip_switch",
+    "path_len",
+    "t_grasp"
+  ],
+  "features_B": [
+    "d_at_grasp",
+    "n_approach",
+    "wasted_grasp",
+    "t_lift",
+    "drop_flag",
+    "post_lift_len"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "n": 300,
+  "n_by_skill": {
+    "better": 100,
+    "worse": 100,
+    "okay": 100
+  },
+  "composite_A": {
+    "features": [
+      "len",
+      "jerk",
+      "hf_ratio",
+      "idle_ratio",
+      "grip_switch",
+      "path_len",
+      "t_grasp"
+    ],
+    "auroc_worse_vs_better": 0.8513999999999999,
+    "auroc_95ci": [
+      0.7924123663678263,
+      0.9017141698920111
+    ],
+    "spearman_goodness_vs_skill": 0.5042170766518501,
+    "spearman_p": 9.449561584567521e-21
+  },
+  "composite_AB": {
+    "features": [
+      "len",
+      "jerk",
+      "hf_ratio",
+      "idle_ratio",
+      "grip_switch",
+      "path_len",
+      "t_grasp",
+      "d_at_grasp",
+      "n_approach",
+      "wasted_grasp",
+      "t_lift"
+    ],
+    "auroc_worse_vs_better": 0.7779,
+    "auroc_95ci": [
+      0.7150822417525003,
+      0.8414608787909118
+    ],
+    "spearman_goodness_vs_skill": 0.3953220273749452,
+    "spearman_p": 1.157747492525688e-12
+  },
+  "badness_A_by_operator": {
+    "better_1": -0.138,
+    "better_2": -0.468,
+    "okay_1": 0.223,
+    "okay_2": -0.033,
+    "worse_1": 0.157,
+    "worse_2": 0.26
+  }
+}

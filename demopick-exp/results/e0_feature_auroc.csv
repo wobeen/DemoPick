@@ -1,0 +1,16 @@
+feature,group,auroc_worse_vs_better,median_worse,median_okay,median_better
+len,A_heuristic,0.9452,146.5,90.0,69.5
+jerk,A_heuristic,0.8042,0.2338,0.2825,0.141
+hf_ratio,A_heuristic,0.8802,0.1063,0.0901,0.0435
+idle_ratio,A_heuristic,0.6956,0.119,0.0429,0.0612
+grip_switch,A_heuristic,0.55,1.0,1.0,1.0
+path_len,A_heuristic,0.9479,0.3907,0.3703,0.3111
+t_grasp,A_heuristic,0.8719,0.8242,0.7688,0.7426
+d_at_grasp,B_object,0.6636,0.0114,0.0131,0.0092
+n_approach,B_object,0.545,0.0,0.0,0.0
+wasted_grasp,B_object,0.505,0.0,0.0,0.0
+t_lift,B_object,0.9432,0.9721,0.9553,0.9403
+drop_flag,B_object,0.5,0.0,0.0,0.0
+post_lift_len,B_object,0.5,4.0,4.0,4.0
+composite_A,composite,0.9873,,,
+composite_AB,composite,0.9916,,,

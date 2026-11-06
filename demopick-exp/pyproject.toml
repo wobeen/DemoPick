@@ -1,0 +1,17 @@
+[project]
+name = "demopick-exp"
+version = "0.1.0"
+description = "D2SF submission experiments: demo quality scoring on robomimic"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "pandas",
+    "h5py",
+    "scipy",
+    "scikit-learn",
+    "matplotlib",
+    "pyyaml",
+]
+
+[tool.uv]
+package = false

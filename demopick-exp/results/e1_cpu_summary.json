@@ -1,0 +1,121 @@
+{
+  "setup": "MLP BC 256-256, epochs 100, 30 rollouts x 3 seeds, horizon 300, same init states",
+  "summary": [
+    {
+      "method": "all",
+      "keep": 1.0,
+      "n_seeds": 3,
+      "mean_success": 0.4333,
+      "sd_across_seeds": 0.1155,
+      "pooled_k": 39,
+      "pooled_n": 90,
+      "wilson95_lo": 0.3358,
+      "wilson95_hi": 0.5364,
+      "mean_worse_in_train": 100.0,
+      "mean_better_in_train": 100.0
+    },
+    {
+      "method": "oracle",
+      "keep": 0.5,
+      "n_seeds": 3,
+      "mean_success": 0.5778,
+      "sd_across_seeds": 0.1347,
+      "pooled_k": 52,
+      "pooled_n": 90,
+      "wilson95_lo": 0.4746,
+      "wilson95_hi": 0.6746,
+      "mean_worse_in_train": 0.0,
+      "mean_better_in_train": 100.0
+    },
+    {
+      "method": "heuristic",
+      "keep": 0.5,
+      "n_seeds": 3,
+      "mean_success": 0.6222,
+      "sd_across_seeds": 0.0839,
+      "pooled_k": 56,
+      "pooled_n": 90,
+      "wilson95_lo": 0.519,
+      "wilson95_hi": 0.7154,
+      "mean_worse_in_train": 5.0,
+      "mean_better_in_train": 94.0
+    },
+    {
+      "method": "random",
+      "keep": 0.5,
+      "n_seeds": 3,
+      "mean_success": 0.3778,
+      "sd_across_seeds": 0.0385,
+      "pooled_k": 34,
+      "pooled_n": 90,
+      "wilson95_lo": 0.2846,
+      "wilson95_hi": 0.481,
+      "mean_worse_in_train": 48.6667,
+      "mean_better_in_train": 51.0
+    },
+    {
+      "method": "reverse",
+      "keep": 0.5,
+      "n_seeds": 3,
+      "mean_success": 0.3111,
+      "sd_across_seeds": 0.0509,
+      "pooled_k": 28,
+      "pooled_n": 90,
+      "wilson95_lo": 0.2249,
+      "wilson95_hi": 0.4128,
+      "mean_worse_in_train": 95.0,
+      "mean_better_in_train": 6.0
+    }
+  ],
+  "paired": [
+    {
+      "a": "heuristic",
+      "b": "random",
+      "a_only": 33,
+      "b_only": 11,
+      "sign_test_p": 0.0012600338162656044
+    },
+    {
+      "a": "oracle",
+      "b": "random",
+      "a_only": 31,
+      "b_only": 13,
+      "sign_test_p": 0.009559878856634896
+    },
+    {
+      "a": "heuristic",
+      "b": "oracle",
+      "a_only": 22,
+      "b_only": 18,
+      "sign_test_p": 0.6358280026288412
+    },
+    {
+      "a": "heuristic",
+      "b": "all",
+      "a_only": 29,
+      "b_only": 12,
+      "sign_test_p": 0.011507789735333063
+    },
+    {
+      "a": "random",
+      "b": "reverse",
+      "a_only": 22,
+      "b_only": 16,
+      "sign_test_p": 0.417692190836533
+    },
+    {
+      "a": "heuristic",
+      "b": "reverse",
+      "a_only": 35,
+      "b_only": 7,
+      "sign_test_p": 1.5097200957825409e-05
+    },
+    {
+      "a": "all",
+      "b": "reverse",
+      "a_only": 25,
+      "b_only": 14,
+      "sign_test_p": 0.10812902140605732
+    }
+  ]
+}

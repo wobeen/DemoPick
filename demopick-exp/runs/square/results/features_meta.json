@@ -1,0 +1,43 @@
+{
+  "hdf5": "/sessions/rcw-01hsksdeybymnqwmc7unzzzu/mnt/MyProjects/square_mh_low_dim_v15.hdf5",
+  "env_name": "NutAssemblySquare",
+  "task_cfg": {
+    "obj": [
+      7,
+      10
+    ],
+    "lift": "rel10",
+    "wasted_dist": 0.1,
+    "b": [
+      "d_at_grasp",
+      "n_approach",
+      "wasted_grasp",
+      "t_lift"
+    ]
+  },
+  "n_demos": 300,
+  "idle_threshold_m": 0.0006772467873133283,
+  "thresholds": {
+    "IDLE_QUANTILE": 0.1,
+    "APPROACH_PROMINENCE": 0.02,
+    "WASTED_DIST": 0.05,
+    "LIFT_Z": 0.84,
+    "DROP_DZ": 0.005,
+    "SQUARE_LIFT_DZ": 0.04
+  },
+  "features_A": [
+    "len",
+    "jerk",
+    "hf_ratio",
+    "idle_ratio",
+    "grip_switch",
+    "path_len",
+    "t_grasp"
+  ],
+  "features_B": [
+    "d_at_grasp",
+    "n_approach",
+    "wasted_grasp",
+    "t_lift"
+  ]
+}

@@ -1,0 +1,6 @@
+method,keep,n_seeds,mean_success,sd_across_seeds,pooled_k,pooled_n,wilson95_lo,wilson95_hi,mean_worse_in_train,mean_better_in_train
+all,1.0,3,0.144,0.051,13,90,0.086,0.232,100.0,100.0
+oracle,0.333,3,0.178,0.084,16,90,0.112,0.269,0.0,100.0
+heuristic,0.333,3,0.189,0.019,17,90,0.121,0.282,8.0,70.0
+random,0.333,3,0.033,0.033,3,90,0.011,0.093,30.667,35.667
+reverse,0.333,3,0.067,0.033,6,90,0.031,0.138,48.0,13.0

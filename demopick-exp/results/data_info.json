@@ -1,0 +1,122 @@
+{
+  "hdf5": "/sessions/rcw-01hsksdeybymnqwmc7unzzzu/mnt/MyProjects/low_dim_v15.hdf5",
+  "n_demos": 300,
+  "obs_keys": {
+    "object": [
+      48,
+      10
+    ],
+    "robot0_eef_pos": [
+      48,
+      3
+    ],
+    "robot0_eef_quat": [
+      48,
+      4
+    ],
+    "robot0_eef_quat_site": [
+      48,
+      4
+    ],
+    "robot0_gripper_qpos": [
+      48,
+      2
+    ],
+    "robot0_gripper_qvel": [
+      48,
+      2
+    ],
+    "robot0_joint_pos": [
+      48,
+      7
+    ],
+    "robot0_joint_pos_cos": [
+      48,
+      7
+    ],
+    "robot0_joint_pos_sin": [
+      48,
+      7
+    ],
+    "robot0_joint_vel": [
+      48,
+      7
+    ]
+  },
+  "action_shape": [
+    48,
+    7
+  ],
+  "env_name": "Lift",
+  "mask_counts": {
+    "20_percent": 60,
+    "20_percent_train": 54,
+    "20_percent_valid": 6,
+    "50_percent": 144,
+    "50_percent_train": 132,
+    "50_percent_valid": 12,
+    "better": 100,
+    "better_operator_1": 50,
+    "better_operator_1_train": 45,
+    "better_operator_1_valid": 5,
+    "better_operator_2": 50,
+    "better_operator_2_train": 45,
+    "better_operator_2_valid": 5,
+    "better_train": 90,
+    "better_valid": 10,
+    "okay": 100,
+    "okay_better": 200,
+    "okay_better_train": 180,
+    "okay_better_valid": 20,
+    "okay_operator_1": 50,
+    "okay_operator_1_train": 45,
+    "okay_operator_1_valid": 5,
+    "okay_operator_2": 50,
+    "okay_operator_2_train": 45,
+    "okay_operator_2_valid": 5,
+    "okay_train": 90,
+    "okay_valid": 10,
+    "train": 270,
+    "valid": 30,
+    "worse": 100,
+    "worse_better": 200,
+    "worse_better_train": 180,
+    "worse_better_valid": 20,
+    "worse_okay": 200,
+    "worse_okay_train": 180,
+    "worse_okay_valid": 20,
+    "worse_operator_1": 50,
+    "worse_operator_1_train": 45,
+    "worse_operator_1_valid": 5,
+    "worse_operator_2": 50,
+    "worse_operator_2_train": 45,
+    "worse_operator_2_valid": 5,
+    "worse_train": 90,
+    "worse_valid": 10
+  },
+  "n_with_skill": 300,
+  "skill_counts": {
+    "worse": 100,
+    "okay": 100,
+    "better": 100
+  },
+  "n_with_operator": 300,
+  "operators": [
+    "better_1",
+    "better_2",
+    "okay_1",
+    "okay_2",
+    "worse_1",
+    "worse_2"
+  ],
+  "length_min_median_max": [
+    41,
+    96,
+    313
+  ],
+  "gripper_width_change_after_positive_action_m": -0.03675497889633246,
+  "gripper_note": "음수(간격 감소)면 '행동>0 = 닫기'(robosuite 관례)와 일치. 양수면 common.gripper_closed의 부등호를 반대로 바꾼다.",
+  "object_z_rise_median_m": 0.04924531712406377,
+  "object_rel_vs_eef_dist_median_abs_diff_m": 0.0,
+  "object_note": "z 상승 중앙값이 수 cm 이상이면 object[0:3]=큐브 위치로 본다. rel 차이가 작으면 object[7:10]=그리퍼-큐브 상대 위치로 본다(작업 중 그리퍼 기준점 차이로 1~2cm는 날 수 있음)."
+}
